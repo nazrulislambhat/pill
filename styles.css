@@ -35,22 +35,23 @@ body {
 }
 
 .hero-image.left {
-  background-image: url('https://picsum.photos/900/1200?random=1');
+  background-image: url('./assets/boston-public-library-YoK5pBcSY8s-unsplash.jpg');
 }
-
+.ch {
+}
 .hero-image.right {
-  background-image: url('https://picsum.photos/900/1200?random=2');
+  background-image: url('./assets/europeana-MvR30qxn-MM-unsplash.jpg');
 }
 
 /* GAP */
 .hero-gap {
   width: 20px;
 
-  /* 🔥 REQUIRED */
-  height: 120%;
+
   overflow: visible;
   position: relative;
   background: transparent;
+  height: calc(100vh + 80px);
 }
 
 /* PILL */
