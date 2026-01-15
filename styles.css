@@ -24,7 +24,6 @@ body {
 .hero {
   height: 100vh;
   display: flex;
-  overflow: hidden;
 }
 
 /* IMAGES */
@@ -35,19 +34,16 @@ body {
 }
 
 .hero-image.left {
-  background-image: url('./assets/boston-public-library-YoK5pBcSY8s-unsplash.jpg');
-}
-.ch {
+  background-color: royalblue;
 }
 .hero-image.right {
-  background-image: url('./assets/europeana-MvR30qxn-MM-unsplash.jpg');
+  background-color: yellowgreen;
 }
 
 /* GAP */
 .hero-gap {
   width: 20px;
-
-
+  z-index: 2;
   overflow: visible;
   position: relative;
   background: transparent;
@@ -56,6 +52,7 @@ body {
 
 /* PILL */
 .pill {
+  z-index: 3;
   position: absolute;
 
   left: 50%;
